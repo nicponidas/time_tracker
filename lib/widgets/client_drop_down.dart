@@ -11,7 +11,7 @@ class ClientDropDown extends StatefulWidget {
 }
 
 class _ClientDropDownState extends State<ClientDropDown> {
-  var clients = listOfClient.first.id;
+  var clients = listOfClient.first;
   @override
   Widget build(BuildContext context) {
     return DropdownButton(
